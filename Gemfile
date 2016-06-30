@@ -19,3 +19,7 @@ group :development do
   gem 'spring'
 end
 
+
+## Add new gems here
+
+gem 'active_model_serializers', '~> 0.10.0'
