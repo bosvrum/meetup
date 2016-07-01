@@ -23,3 +23,8 @@ end
 ## Add new gems here
 
 gem 'active_model_serializers', '~> 0.10.0'
+
+group :test do 
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+  gem 'factory_girl_rails', '~> 4.7'
+end
